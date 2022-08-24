@@ -33,3 +33,8 @@
 
 * Test if everything is working by entering the following command
 	* `python optimizedSD/optimized_txt2img.py --prompt "Cyberpunk style image of a Telsa car reflection in rain" --H 512 --W 512 --seed 27 --n_iter 2 --n_samples 10 --ddim_steps 50` 
+
+To create more images just change the writting in the prompt section of the command. Also look at the instructions in https://github.com/CompVis/stable-diffusion to view and understand different command options.
+
+
+When finished shut down the Anaconda container with `conda deactivate ldm`
